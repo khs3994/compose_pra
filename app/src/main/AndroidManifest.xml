@@ -10,15 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Compose_pra">
         <activity
-            android:name=".MainActivity"
+            android:name=".BoxActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/title_activity_box"
             android:theme="@style/Theme.Compose_pra">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Compose_pra">
         </activity>
     </application>
 
